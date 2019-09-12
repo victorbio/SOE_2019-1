@@ -1,8 +1,11 @@
 1. O que são sistemas embarcados?
-> Define-se sistema embarcado como um sistema que realiza um conjunto de tarefas pré-definidas para um propósito específico em um dispositivo mecânico ou elétrico de escopo maior.
-
+```
+	Define-se sistema embarcado como um sistema que realiza um conjunto de tarefas pré-definidas para um propósito específico em um dispositivo mecânico ou elétrico de escopo maior.
+```
 2. O que são sistemas microprocesssados?
-> Sistema microprocessado é um componente, geralmente no formato de circuito integrado, que é responsável pela execução das instruções e tarefas envolvidas no processamento de um computador. É a unidade central que executa as funções de cálculo e tomada de decisão através de lógicas sequencias e combinacionais.
+```
+	Sistema microprocessado é um componente, geralmente no formato de circuito integrado, que é responsável pela execução das instruções e tarefas envolvidas no processamento de um computador. É a unidade central que executa as funções de cálculo e tomada de decisão através de lógicas sequencias e combinacionais.
+```
 
 3. Apresente aplicações de sistemas embarcados:
 	(a) Para a indústria automotiva;
