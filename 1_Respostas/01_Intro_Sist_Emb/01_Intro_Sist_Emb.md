@@ -5,6 +5,7 @@
 >Sistema microprocessado é um componente, geralmente no formato de circuito integrado,que é responsável pela execução das instruções e tarefas envolvidas no processamento de um computador. É a unidade central que executa as funções de cálculo e tomada de decisão através de lógicas sequenciais e combinacionais.
 
 3. Apresente aplicações de sistemas embarcados:
+
 	(a) Para a indústria automotiva;
 	>Controle automático de estabilidade, sistema de controle de tração, air bag, freios ABS, sistema de navegação.
 

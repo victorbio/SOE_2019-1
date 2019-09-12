@@ -17,6 +17,7 @@
 >As setas direcionais executam essa função, assim como a combinação ctrl+r ou ctrl+s.
 
 7. Apresente os respectivos comandos no terminal para:
+
   (a) Obter mais informações sobre um comando;
   >man
 
