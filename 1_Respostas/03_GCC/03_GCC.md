@@ -140,10 +140,9 @@ $ Argumento: ./ola_num_caracs_1 / Numero de caracteres: 18
 $ Argumento: Eu / Numero de caracteres: 2
 $ Argumento: Mesmo / Numero de caracteres: 5
 ```
->Utilizando os arquivos num_caracs.c, num_caracs.h, ola_num_caracs_1.c e
-Makefile, executar no terminal:                                         
+>Utilizando os arquivos na pasta ola_num_caracs_1, executar no terminal:
 make                                                                    
-./ola_num_caracs_1 ola tenha uma boa tarde
+./ola_num_caracs_1 Eu Mesmo
 
 10. Crie um Makefile para a questão anterior.
 >Arquivo criado e utilizado no item 9.
@@ -154,10 +153,9 @@ make
 $ ./ola_num_caracs_2 Eu Mesmo
 $ Total de caracteres de entrada: 25
 ```
->Utilizando os arquivos num_caracs.c, num_caracs.h, ola_num_caracs_2.c e
-Makefile, executar no terminal:                                         
+>Utilizando os arquivos na pasta ola_num_caracs_2, executar no terminal:
 make                                                                    
-./ola_num_caracs_2 esta mensagem tera 46 caracteres.
+./ola_num_caracs_2 Eu Mesmo
 
 12. Crie um Makefile para a questão anterior.
 >Arquivo criado e utilizado no item 11.
