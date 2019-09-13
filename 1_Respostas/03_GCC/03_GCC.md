@@ -55,7 +55,7 @@ $ echo "Eu Mesmo" | ./ola_usuario_1
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_1 < ola.txt
 ```
->Digite o seu nome: Ola Ola
+>Ola Ola
 
 4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
 
@@ -157,7 +157,7 @@ $ Total de caracteres de entrada: 25
 >Utilizando os arquivos num_caracs.c, num_caracs.h, ola_num_caracs_2.c e
 Makefile, executar no terminal:                                         
 make                                                                    
-./ola_num_caracs_2 esta mensagem tera 50 caracteres.
+./ola_num_caracs_2 esta mensagem tera 46 caracteres.
 
 12. Crie um Makefile para a questão anterior.
 >Arquivo criado e utilizado no item 11.
