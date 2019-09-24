@@ -9,12 +9,15 @@ Sistema microprocessado é um componente, geralmente no formato de circuito inte
 **3. Apresente aplicações de sistemas embarcados:**
 
 **(a) Para a indústria automotiva;**
+
 Controle automático de estabilidade, sistema de controle de tração, air bag, freios ABS, sistema de navegação.
 
 **(b) Para eletrodomésticos;**
+
 Interface com o usuário, controle de ativação por tempo, desligamento automático, segurança elétrica.
 
 **(c) Para automação industrial;**
+
 Manutenção do fluxo de fluídos para uma CNC, controle da velocidade de esteiras no processo de montagem, ajuste automático da transmissão em aplicações com motores, medição de parâmetros críticos.
 
 **4. Cite arquiteturas possíveis e as diferenças entre elas.**
