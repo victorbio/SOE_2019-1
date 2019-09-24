@@ -1,6 +1,6 @@
 **1. Por que o Linux recebeu esse nome?**
 
-O nome do kernel foi dado através de uma combinação entre o nome do criador do kernel, Linus Torvalds, com o final "x" que remete ao Unix.
+O nome do kernel foi dado através de uma combinação entre o nome do criador do kernel, Linus Torvalds, e o final de letra "x" que remete ao Unix.
 
 **2. O que são daemons?**
 
@@ -8,7 +8,7 @@ Daemons são um tipo de programa no qual o usuário não tem controle direto sob
 
 **3. O que é o shell?**
 
-O shell é uma interface com o usuário que permite o acesso aos serviços do sistema operacional. Usualmente, essa interface pode utilizar ou linhas de comando diretamente, ou interfaces gráficas, dependendo do sistema operacional analisado.
+O shell é uma interface com o usuário que permite o acesso aos serviços do sistema operacional. Usualmente essa interface utiliza ou linhas de comando diretamente ou interfaces gráficas, dependendo do sistema operacional analisado.
 
 **4. Por que é importante evitar executar o terminal como super-usuário?**
 
