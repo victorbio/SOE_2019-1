@@ -1,12 +1,13 @@
-Para todas as questões, compile-as com o gcc e execute-as via terminal.
+**Para todas as questões, compile-as com o gcc e execute-as via terminal.**
 
-1. Crie um "Olá mundo!" em C.
->Utilizando o arquivo ola.c, executar pelo terminal:                    
+**1. Crie um "Olá mundo!" em C.**
+
+Utilizando o arquivo ola.c, executar pelo terminal:                    
+
 gcc ola.c -o ola                                                        
 ./ola
 
-2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
-
+**2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':**
 ```bash
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu
@@ -16,7 +17,7 @@ $ Ola Eu
 gcc ola_usuario_1.c -o ola_usuario_1                                    
 ./ola_usuario_1
 
-3. Apresente os comportamentos do código anterior nos seguintes casos:
+**3. Apresente os comportamentos do código anterior nos seguintes casos:**
 
 (a) Se o usuário insere mais de um nome.
 ```bash
@@ -57,8 +58,7 @@ $ ./ola_usuario_1 < ola.txt
 ```
 >Ola Ola
 
-4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
-
+**4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':**
 ```bash
 $ ./ola_usuario_2 Eu
 $ Ola Eu
