@@ -28,7 +28,6 @@ As setas direcionais executam essa função, assim como a combinação ctrl+r ou
 ```
 man
 ```
-
 **(b) Apresentar uma lista com os arquivos dentro de uma pasta;**
 ```
 ls
