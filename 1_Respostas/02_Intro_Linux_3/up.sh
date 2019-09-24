@@ -1,5 +1,7 @@
 #!/bin/bash
-for i in $1
+N=$1
+while [ $N -gt "0" ]
 do
-  cd ..
+	cd ..
+	N=$(($N-1))
 done
