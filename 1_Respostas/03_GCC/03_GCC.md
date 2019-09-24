@@ -67,7 +67,7 @@ $ ./ola_usuario_1 < ola.txt
 
 Ola Ola
 
-**4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':**
+**4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e argv), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':**
 ```
 $ ./ola_usuario_2 Eu
 $ Ola Eu
