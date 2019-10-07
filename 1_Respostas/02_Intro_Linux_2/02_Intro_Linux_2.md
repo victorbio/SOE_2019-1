@@ -2,7 +2,7 @@
 
 **1. Escreva o texto "Ola mundo cruel!" em um arquivo denominado "Ola_mundo.txt". Apresente o conteúdo deste arquivo no terminal.**
 ```
-echo Ola mundo cruel! >> Ola_mundo.txt                                 
+echo "Ola mundo cruel!" >> Ola_mundo.txt
 cat Ola_mundo.txt
 ```
 
@@ -23,16 +23,16 @@ ls -d /*/
 
 **5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.**
 ```
-date -d "2018-05-03" +"%A"                                             
-date -d "2017-05-03" +"%A"                                              
-date -d "2016-05-03" +"%A"                                              
-date -d "2015-05-03" +"%A"                                              
-date -d "2014-05-03" +"%A"                                              
-date -d "2013-05-03" +"%A"                                              
-date -d "2012-05-03" +"%A"                                              
-date -d "2011-05-03" +"%A"                                              
-date -d "2010-05-03" +"%A"                                              
-date -d "2009-05-03" +"%A"                                              
+date -d "2018-05-03" +"%A"
+date -d "2017-05-03" +"%A"
+date -d "2016-05-03" +"%A"
+date -d "2015-05-03" +"%A"
+date -d "2014-05-03" +"%A"
+date -d "2013-05-03" +"%A"
+date -d "2012-05-03" +"%A"
+date -d "2011-05-03" +"%A"
+date -d "2010-05-03" +"%A"
+date -d "2009-05-03" +"%A"
 ```
 
 **Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Questoes/02_Intro_Linux_arqs.zip**
