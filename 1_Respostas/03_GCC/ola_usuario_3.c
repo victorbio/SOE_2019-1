@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-  printf("Ola %s\n", argv[1]);
-  printf("Numero de entradas = %d\n", argc);
+  fprintf(stdout, "Ola %s\n", argv[1]);
+	fprintf(stdout, "Numero de entradas = %d\n", argc);
+	return(0);
 }

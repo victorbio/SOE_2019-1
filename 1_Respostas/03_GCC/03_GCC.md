@@ -4,8 +4,8 @@
 
 Utilizando o arquivo ola.c, executar no terminal:
 ```
-gcc ola.c -o ola                                                        
-./ola
+$ gcc -o ola ola.c
+$ ./ola
 ```
 
 **2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':**
@@ -17,8 +17,8 @@ $ Ola Eu
 
 Utilizando o arquivo ola_usuario_1.c, executar no terminal:
 ```
-gcc ola_usuario_1.c -o ola_usuario_1                                    
-./ola_usuario_1
+$ gcc -o ola_usuario_1 ola_usuario_1.c
+$ ./ola_usuario_1
 ```
 
 **3. Apresente os comportamentos do código anterior nos seguintes casos:**
@@ -29,7 +29,7 @@ $ ./ola_usuario_1
 $ Digite o seu nome: Eu Mesmo
 ```
 
-Ola Eu
+Ola Eu Mesmo
 
 **(b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:**
 ```
@@ -37,7 +37,7 @@ $ ./ola_usuario_1
 $ Digite o seu nome: "Eu Mesmo"
 ```
 
-Ola "Eu
+Ola "Eu Mesmo"
 
 **(c) Se é usado um pipe. Por exemplo:**
 ```**
@@ -50,14 +50,14 @@ Ola Eu
 ```
 $ echo Eu Mesmo | ./ola_usuario_1
 ```
-Ola Eu
+Ola Eu Mesmo
 
 **(e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:**
 ```
 $ echo "Eu Mesmo" | ./ola_usuario_1
 ```
 
-Ola Eu
+Ola Eu Mesmo
 
 **(f) Se é usado o redirecionamento de arquivo. Por exemplo:**
 ```
@@ -65,7 +65,7 @@ $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_1 < ola.txt
 ```
 
-Ola Ola
+Ola Ola mundo cruel!
 
 **4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e argv), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':**
 ```
@@ -75,8 +75,8 @@ $ Ola Eu
 
 Utilizando o arquivo ola_usuario_2.c, executar no terminal:
 ```
-gcc ola_usuario_2.c -o ola_usuario_2                                    
-./ola_usuario_2 Eu
+$ gcc -o ola_usuario_2 ola_usuario_2.c
+$ ./ola_usuario_2 Eu
 ```
 
 **5. Apresente os comportamentos do código anterior nos seguintes casos:**
@@ -133,8 +133,8 @@ $ Numero de entradas = 2
 
 Utilizando o arquivo ola_usuario_3.c, executar no terminal:
 ```
-gcc ola_usuario_3.c -o ola_usuario_3                                    
-./ola_usuario_3 Eu
+$ gcc -o ola_usuario_3 ola_usuario_3.c
+$ ./ola_usuario_3 Eu
 ```
 
 **7. Crie um código em C que imprime todos os argumentos de entrada fornecidos pelo usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_argumentos':**
@@ -145,15 +145,14 @@ $ Argumentos: Eu Mesmo e Minha Pessoa
 
 Utilizando o arquivo ola_argumentos.c, executar no terminal:
 ```
-gcc ola_argumentos.c -o ola_argumentos                                  
-./ola_argumentos Eu Mesmo e Minha Pessoa
+$ gcc -o ola_argumentos ola_argumentos.c
+$ ./ola_argumentos Eu Mesmo e Minha Pessoa
 ```
 
 **8. Crie uma função que retorna a quantidade de caracteres em uma string, usando o seguinte protótipo: `int Num_Caracs(char *string);` Salve-a em um arquivo separado chamado 'num_caracs.c'. Salve o protótipo em um arquivo chamado 'num_caracs.h'. Compile 'num_caracs.c' para gerar o objeto 'num_caracs.o'.**
 
-Utilizando o arquivo num_caracs.c, executar no terminal:               
-```
-gcc num_caracs.c -c
+Utilizando o arquivo num_caracs.c e num_caracs.h, executar no terminal: ```
+$ gcc -c num_caracs.c
 ```
 
 **9. Re-utilize o objeto criado na questão 8 para criar um código que imprime cada argumento de entrada e a quantidade de caracteres de cada um desses argumentos. Por exemplo, considerando que o código criado recebeu o nome de 'ola_num_caracs_1':**
@@ -164,15 +163,19 @@ $ Argumento: Eu / Numero de caracteres: 2
 $ Argumento: Mesmo / Numero de caracteres: 5
 ```
 
-Utilizando os arquivos na pasta ola_num_caracs_1, executar no terminal:
-```
-make                                                                    
-./ola_num_caracs_1 Eu Mesmo
+Utilizando os arquivos na pasta ola_num_caracs_1, executar no terminal: ```
+$ gcc -c ola_num_caracs_1.c
+$ gcc -o ola_num_caracs_1 num_caracs.o ola_num_caracs_1.o
+$ ./ola_num_caracs_1 Eu Mesmo
 ```
 
 **10. Crie um Makefile para a questão anterior.**
 
-Arquivo criado e utilizado no item 9.
+Utilizando os arquivos na pasta ola_num_caracs_1, executar no terminal:
+```
+$ make
+$ ./ola_num_caracs_1 Eu Mesmo
+```
 
 **11. Re-utilize o objeto criado na questão 8 para criar um código que imprime o total de caracteres nos argumentos de entrada. Por exemplo, considerando que o código criado recebeu o nome de 'ola_num_caracs_2':**
 ```
@@ -182,10 +185,15 @@ $ Total de caracteres de entrada: 25
 
 Utilizando os arquivos na pasta ola_num_caracs_2, executar no terminal:
 ```
-make                                                                    
-./ola_num_caracs_2 Eu Mesmo
+$ gcc -c ola_num_caracs_2.c
+$ gcc -o ola_num_caracs_2 num_caracs.o ola_num_caracs_2.o
+$ ./ola_num_caracs_2 Eu Mesmo
 ```
 
 **12. Crie um Makefile para a questão anterior.**
 
-Arquivo criado e utilizado no item 11.
+Utilizando os arquivos na pasta ola_num_caracs_2, executar no terminal:
+```
+$ make
+$ ./ola_num_caracs_2 Eu Mesmo
+```

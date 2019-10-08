@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-  printf("Ola %s\n", argv[1]);
+  fprintf(stdout, "Ola %s\n", argv[1]);
+	return(0);
 }

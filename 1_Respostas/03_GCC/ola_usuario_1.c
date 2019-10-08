@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-void main()
+int main(void)
 {
-  char word[20];
-  printf("Digite o seu nome: \n");
-  scanf("%s", word);
-  printf("Ola %s\n", word);
+  char name[100];
+	fputs("Digite o seu nome: ", stdout);
+	fgets(name, sizeof(name), stdin);
+	fprintf(stdout, "Ola %s", name);
+	return (0);
 }

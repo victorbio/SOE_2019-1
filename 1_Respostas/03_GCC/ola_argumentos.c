@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-  int i = 0;
-  printf("Argumentos: ");
-  for (i = 1; i < argc; i++)
+  fputs("Argumentos: ", stdout);
+  for (int i = 1; i < argc; i++)
   {
-    printf("%s ", argv[i]);
+    fprintf(stdout, "%s ", argv[i]);
   }
-  printf("\n");
+  fputs("\n", stdout);
+	return (0);
 }

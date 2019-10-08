@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void main()
+int main(void)
 {
-  printf("Olá mundo!\n");
+  fputs("Olá mundo!\n", stdout);
+	return(0);
 }
