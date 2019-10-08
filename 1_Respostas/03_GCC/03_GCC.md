@@ -151,7 +151,8 @@ $ ./ola_argumentos Eu Mesmo e Minha Pessoa
 
 **8. Crie uma função que retorna a quantidade de caracteres em uma string, usando o seguinte protótipo: `int Num_Caracs(char *string);` Salve-a em um arquivo separado chamado 'num_caracs.c'. Salve o protótipo em um arquivo chamado 'num_caracs.h'. Compile 'num_caracs.c' para gerar o objeto 'num_caracs.o'.**
 
-Utilizando o arquivo num_caracs.c e num_caracs.h, executar no terminal: ```
+Utilizando o arquivo num_caracs.c e num_caracs.h, executar no terminal:
+```
 $ gcc -c num_caracs.c
 ```
 
@@ -163,7 +164,8 @@ $ Argumento: Eu / Numero de caracteres: 2
 $ Argumento: Mesmo / Numero de caracteres: 5
 ```
 
-Utilizando os arquivos na pasta ola_num_caracs_1, executar no terminal: ```
+Utilizando os arquivos na pasta ola_num_caracs_1, executar no terminal:
+```
 $ gcc -c ola_num_caracs_1.c
 $ gcc -o ola_num_caracs_1 num_caracs.o ola_num_caracs_1.o
 $ ./ola_num_caracs_1 Eu Mesmo
