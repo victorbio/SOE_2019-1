@@ -79,4 +79,5 @@ offt_t lseek(int fildes, off_t offset, int whence);
 **(e) Quais bibliotecas devem ser incluídas no código para poder utilizar as funções acima?**
 ```
 #include <unistd.h>
+#include <fcntl.h>
 ```
