@@ -1,45 +1,61 @@
-1. Como se utiliza o comando `ps` para:
+**1. Como se utiliza o comando `ps` para:**
 
-(a) Mostrar todos os processos rodando na máquina?
->ps -e
+**(a) Mostrar todos os processos rodando na máquina?**
+```
+$ ps -e
+```
 
-(b) Mostrar os processos de um usuário?
->ps -u
+**(b) Mostrar os processos de um usuário?**
+```
+$ ps -u
+```
 
-(c) Ordenar todos os processos de acordo com o uso da CPU?
->ps aux --sort -c
+**(c) Ordenar todos os processos de acordo com o uso da CPU?**
+```
+$ ps aux --sort -c
+```
 
-(d) Mostrar a quanto tempo cada processo está rodando?
->ps -eo pid,comm,etime
+**(d) Mostrar a quanto tempo cada processo está rodando?**
+```
+$ ps -eo pid,comm,etime
+```
 
-2. De onde vem o nome `fork()`?
->O nome 'fork' em inglês pode ter o significado de bifurcação, que indica uma separação de um caminho em dois, representando a criação de dois processos a partir de um.
+**2. De onde vem o nome `fork()`?**
 
-3. Quais são as vantagens e desvantagens em utilizar:
+O nome "fork" em inglês pode ter o significado de bifurcação, que indica uma separação de um caminho em dois, o que pode representar a criação de dois processos a partir de um.
+
+**3. Quais são as vantagens e desvantagens em utilizar:**
 
 (a) `system()`?
 
 (b) `fork()` e `exec()`?
 
-4. É possível utilizar o `exec()` sem executar o `fork()` antes?
->Sim, porém o processo atual terá seus dados sobreescritos pelo comando exec(), o que pode causar perda de dados indesejada no processo.
+**4. É possível utilizar o `exec()` sem executar o `fork()` antes?**
 
-5. Quais são as características básicas das seguintes funções:
+Sim, porém o processo atual terá seus dados sobreescritos pelo comando exec(), o que pode causar perda de dados indesejada para o usuário.
 
-(a) `execp()`?
->A letra 'p' indica que o comando aceita que o nome ou a procura do programa esteja no caminho atual.
+**5. Quais são as características básicas das seguintes funções:**
 
-(b) `execv()`?
->A letra 'v' indica que o comando aceita que a lista de argumentos do novo programa seja nula.
+**(a) `execp()`?**
 
-(c) `exece()`?
->A letra 'e' indica que o comando aceita um argumento adicional.
+A letra 'p' em exec() indica que o comando aceita que o nome ou a procura do programa esteja no caminho atual.
 
-(d) `execvp()`?
->Com as letras 'v' e 'p', este comando aceita que a lista de argumentos do novo programa seja nula e que o nome ou a procura do programa esteja no caminho atual.
+**(b) `execv()`?**
 
-(e) `execve()`?
->Com as letras 'v' e 'e', este comando aceita que a lista de argumentos do novo programa seja nula e aceita um argumento adicional.
+A letra 'v' em exec() indica que o comando aceita que a lista de argumentos do novo programa seja nula.
 
-(f) `execle()`?
->Com as letras 'l' e 'e', este comando aceita em sua lista de argumentos a utilização de mecanismos "var args" em linguagem C, além de aceitar um argumento adicional.
+**(c) `exece()`?**
+
+A letra 'e' em exec() indica que o comando aceita um argumento adicional.
+
+**(d) `execvp()`?**
+
+Com as letras 'v' e 'p' em exec(), este comando aceita que a lista de argumentos do novo programa seja nula e que o nome ou a procura do programa esteja no caminho atual.
+
+**(e) `execve()`?**
+
+Com as letras 'v' e 'e' em exec(), este comando aceita que a lista de argumentos do novo programa seja nula e aceita um argumento adicional.
+
+**(f) `execle()`?**
+
+Com as letras 'l' e 'e' em exec(), este comando aceita em sua lista de argumentos a utilização de mecanismos "var args" em linguagem C, além de aceitar um argumento adicional.

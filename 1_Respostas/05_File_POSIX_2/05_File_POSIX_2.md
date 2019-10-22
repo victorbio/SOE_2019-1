@@ -1,16 +1,28 @@
-Para todas as questões, utilize as funções da norma POSIX (`open()`, `close()`, `write()`, `read()` e `lseek()`). Compile os códigos com o gcc e execute-os via terminal.
+**Para todas as questões, utilize as funções da norma POSIX (`open()`, `close()`, `write()`, `read()` e `lseek()`). Compile os códigos com o gcc e execute-os via terminal.**
 
-1. Crie um código em C para escrever "Ola mundo!" em um arquivo chamado 'ola_mundo.txt'.
+**1. Crie um código em C para escrever "Ola mundo!" em um arquivo chamado 'ola_mundo.txt'.**
 
-2. Crie um código em C que pergunta ao usuário seu nome e sua idade, e escreve este conteúdo em um arquivo com o seu nome e extensão '.txt'. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
+Utilizando o arquivo ola_mundo.c, executar no terminal:
+```
+gcc ola_mundo.c -o ola_mundo
+./ola_mundo
+```
 
-```bash
+**2. Crie um código em C que pergunta ao usuário seu nome e sua idade, e escreve este conteúdo em um arquivo com o seu nome e extensão '.txt'. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':**
+
+```
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu
 $ Digite a sua idade: 30
 $ cat Eu.txt
 $ Nome: Eu
 $ Idade: 30 anos
+```
+
+Utilizando o arquivo ola_usuario_1.c, executar no terminal:
+```
+gcc ola_usuario_1.c -o ola_usuario_1
+./ola_usuario_1
 ```
 
 3. Crie um código em C que recebe o nome do usuário e e sua idade como argumentos de entrada (usando as variáveis `argc` e `*argv[]`), e escreve este conteúdo em um arquivo com o seu nome e extensão '.txt'. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
